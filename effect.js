@@ -1,6 +1,6 @@
 $(window).load(function(){
-	$('.loading').fadeOut(1000);
-	$('.container').fadeIn(1000);
+	$('.loading').fadeOut(1500);
+	$('.container').fadeIn(1500);
 });
 $('document').ready(function(){
 		var vw;
