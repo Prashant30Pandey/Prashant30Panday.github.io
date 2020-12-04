@@ -189,7 +189,7 @@ $('document').ready(function(){
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
-			$('.message').fadeIn(2000);
+			$('.message').fadeIn(4000);
 		});
 		
 		var i;
