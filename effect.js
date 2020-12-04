@@ -199,8 +199,8 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn(2000).delay(2000);
 			if(i==50){
-				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
+				$("p:nth-child(49)").fadeOut(4000).promise().done(function () {
+					$('.cake').fadeIn(4000);
 				});
 				
 			}
