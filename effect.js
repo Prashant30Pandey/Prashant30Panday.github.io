@@ -195,12 +195,12 @@ $('document').ready(function(){
 		var i;
 
 		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut(5000).delay(800).promise().done(function(){
+			$("p:nth-child("+i+")").fadeOut(6000).delay(800).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn(2000).delay(2000);
+			$("p:nth-child("+i+")").fadeIn(6000).delay(2000);
 			if(i==50){
-				$("p:nth-child(49)").fadeOut(4000).promise().done(function () {
-					$('.cake').fadeIn(4000);
+				$("p:nth-child(49)").fadeOut(6000).promise().done(function () {
+					$('.cake').fadeIn(6000);
 				});
 				
 			}
